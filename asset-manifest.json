@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/matrice-eisenhower/static/css/main.ed27d594.chunk.css",
+    "main.js": "/matrice-eisenhower/static/js/main.00e74608.chunk.js",
+    "main.js.map": "/matrice-eisenhower/static/js/main.00e74608.chunk.js.map",
+    "runtime-main.js": "/matrice-eisenhower/static/js/runtime-main.e5e47d0a.js",
+    "runtime-main.js.map": "/matrice-eisenhower/static/js/runtime-main.e5e47d0a.js.map",
+    "static/js/2.d44c4111.chunk.js": "/matrice-eisenhower/static/js/2.d44c4111.chunk.js",
+    "static/js/2.d44c4111.chunk.js.map": "/matrice-eisenhower/static/js/2.d44c4111.chunk.js.map",
+    "index.html": "/matrice-eisenhower/index.html",
+    "static/css/main.ed27d594.chunk.css.map": "/matrice-eisenhower/static/css/main.ed27d594.chunk.css.map",
+    "static/js/2.d44c4111.chunk.js.LICENSE.txt": "/matrice-eisenhower/static/js/2.d44c4111.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5e47d0a.js",
+    "static/js/2.d44c4111.chunk.js",
+    "static/css/main.ed27d594.chunk.css",
+    "static/js/main.00e74608.chunk.js"
+  ]
+}
