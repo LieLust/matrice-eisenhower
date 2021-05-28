@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  block-size: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.test {
+  /* border: 2px solid red; */
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  align-items: start;
+  /* padding: 0.5rem; */
+}
+
+.test-side {
+  margin: 0;
+  grid-row: 1 / span 3;
+}
+
+.test-p {
+  text-transform: capitalize;
+  margin: 0.5rem;
+  grid-column: span 2;
+}
+
+.drag-n-drop {
+  background-color: white;
+  padding: 0.5rem;
+  display: grid;
+  column-gap: 2.5rem;
+  row-gap: 1.5rem;
+  width: 100%;
+  min-height: 100%;
+  grid-template-columns: auto 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: start;
+}
+.dnd-group {
+  background-color: #bfbfbf;
+  border: 2px solid #808080;
+  /* height: 100%; */
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  text-transform: capitalize;
+}
+
+.dnd-side {
+  min-width: 200px;
+}
+
+form {
+  /* padding: 0.5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dnd-item {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 150px; */
+  background-color: white;
+  border-radius: 5px;
+  color: #282c34;
+  /* font-weight: bold; */
+  position: relative;
+}
+
+.dnd-item .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* font-size: 10px; */
+  clip-path: circle(50% at 50% 50%);
+  background-color: red;
+  color: white;
+}
+
+.dnd-item:not(:last-of-type) {
+  margin-bottom: 0.5rem;
+}
+.dnd-item * {
+  margin: 0;
+  /* font-size: 1.2rem; */
+}
+.group-title {
+  text-align: left;
+  margin-bottom: 0.5rem;
+  /* font-size: 1.5rem; */
+}
+.current {
+  background-color: #282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
